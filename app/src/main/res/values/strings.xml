@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">StudySchedulerClient</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_lecturer_first_name_label">Имя</string>
+    <string name="create_lecturer_patronymic_label">Отчество</string>
+    <string name="create_lecturer_last_name_label">Фамилия</string>
+    <string name="save_lecturer_btn">Сохранить</string>
+    <string name="group_number">Номер группы</string>
+    <string name="institute_name">Институт</string>
+    <string name="group_name">Название</string>
+    <string name="group_institute">Институт</string>
+    <string name="lecturer_second_name">Фамилия</string>
+    <string name="lecturer_first_name">Имя</string>
+    <string name="lecturer_patronymic">Отчество</string>
+</resources>

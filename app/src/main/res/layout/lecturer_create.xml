@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/create_lecturer_first_name_label"
+        android:id="@+id/createLecturerFirstNameLabel"
+        android:singleLine="false"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/lecturerLastNameEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lecturerFrirstNameEdit"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/createLecturerFirstNameLabel"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/create_lecturer_patronymic_label"
+        android:id="@+id/createLecturerPatronymicLabel"
+        android:layout_below="@+id/lecturerFrirstNameEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lecturerPatronymicEdit"
+        android:layout_below="@+id/createLecturerPatronymicLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/create_lecturer_last_name_label"
+        android:id="@+id/createLecturerLastNameLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lecturerLastNameEdit"
+        android:layout_below="@+id/createLecturerLastNameLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_lecturer_btn"
+        android:id="@+id/saveLecturerBtn"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/lecturerPatronymicEdit"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
